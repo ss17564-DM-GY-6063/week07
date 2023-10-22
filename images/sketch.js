@@ -7,7 +7,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   pixelDensity(1);
-  mImg.resize(0, height); //resize the image by the height
+  mImg.resize(0, height); //resize the image by the windowheight
   print(mImg.pixels.length);
   noLoop();
 }
